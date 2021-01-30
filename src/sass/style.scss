@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import 'homepage';
+@import 'movieList';
+@import 'movieInfo';
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom right, #345b64, #29768a) no-repeat;
+
+  color: #fff;
+  min-height: 100vh;
+  height: auto;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
